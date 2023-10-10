@@ -1,0 +1,30 @@
+# ITER
+# small = large = equal = 100
+FF:
+small: 
+largest_free_block = 74656, data_segment_free_space = 187808
+Execution Time = 56.549506 seconds
+Fragmentation  = 0.602488
+large: 
+largest_free_block = 4870464, data_segment_free_space = 33376928
+Execution Time = 310.013681 seconds
+Fragmentation  = 0.854077
+equal: 
+largest_free_block = 128, data_segment_free_space = 1152000
+Execution Time = 5.649306 seconds
+Fragmentation  = 0.999889
+
+BF:
+small: 
+largest_free_block = 10880, data_segment_free_space = 65792
+Execution Time = 110.786169 seconds
+Fragmentation  = 0.834630
+large: 
+largest_free_block = 283616, data_segment_free_space = 14104864
+Execution Time = 1729.964795 seconds
+Fragmentation  = 0.979892
+equal: 
+largest_free_block = 128, data_segment_free_space = 1152000
+Execution Time = 104.294485 seconds
+Fragmentation  = 0.999889
+
